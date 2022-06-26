@@ -25,11 +25,14 @@ const processData = querySplitted
 if (processData) {
     switch (chosenDataType) {
         case 'mem':
-            return console.log(processData.pop(processData.length - 1));
+            process.stdout.write(processData.pop(processData.length - 1));
+            break;
         case 'pid':
-            return console.log(`(${processData[2]})`);
+            process.stdout.write(`(${processData[2]})`);
+            break;
         case 'name':
-            return console.log(processData[4]);
+            process.stdout.write(processData[4]);
+            break;
     }
 }
 
