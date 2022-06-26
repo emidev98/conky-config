@@ -1,11 +1,8 @@
 # Config
-This project contains my own configuration for conky. It works with all devices becasue is based on default linux commands. No additional libraries are needed.
-
+This project contains the configuration I use with conky.
+If you want to use the same config clone the repo and move **config.conf** and **NvidiaSmiProcess.js** to **~/.config/conky** and endable Conky to run on user start.
+ 
 ![Demo Image](./example.png)
-
-# Features
-
-This configuration shows the basic information about **kernel**, **uptime**, **public** address,**private** address, **CPU** info with the top 3 processes on cpu usage, **RAM** info with top 3 processes on ram usage, swap usage, disk usage and network info both download and upload.
 
 # Docs
 
